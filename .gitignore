@@ -163,4 +163,5 @@ cython_debug/
 documents/
 data/
 checkpoints/
-
+.circleci/
+.dev_scripts/
