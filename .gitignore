@@ -162,3 +162,5 @@ cython_debug/
 
 documents/
 data/
+checkpoints/
+
