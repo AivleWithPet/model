@@ -934,7 +934,7 @@
 
 ---
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2abd15ef-3dfa-4e84-bb7a-5f46db44cd5e/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/101624956/256540476-9b599685-248f-4cd4-9c05-dccf882ab710.png)
 
 그림 2의 a는 DenseNet의 구조, 그림 2의 b는 one stage CSPDenseNet의 구조
 
