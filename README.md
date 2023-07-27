@@ -506,6 +506,8 @@
 # Modeling
 ## CSPNet
 ![Image1](https://user-images.githubusercontent.com/101624956/256543161-cefe0380-c906-45c3-975f-d7973b5c63d4.png)
+위 사진은 DenseNet의 각 layer들의 weights를 도식화 한 것으로, 직관적으로 보기에도 각각의 다른 layer들을 update하면서 똑같은 gradient가 재사용되는 것을 확인할 수 있습니다.
+
 
 
 ## RTMDet
