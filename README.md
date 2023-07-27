@@ -10,46 +10,14 @@
 # structure
 
 ```bash
-.
 ├── README.md
-├── checkpoints
-│   └── epoch_7.pth
 ├── configs
 │   └── rtmdet_tiny_8xb32-300e_coco.py
 ├── docker
 │   ├── Dockerfile
-│   ├── serve
-│   │   ├── Dockerfile
-│   │   ├── config.properties
-│   │   └── entrypoint.sh
-│   └── serve_cn
-│       └── Dockerfile
-├── documents
-│   ├── 2023년_K디지털_트레이닝_해커톤_참가신청_양식.hwp
-│   ├── hackathon_application_리뉴어블.pdf
-│   ├── hackathon_application_리뉴어블_210714.pdf
-│   ├── 무제 폴더
-│   │   ├── 태호 서명.png
-│   │   ├── 무연.png
-│   │   ├── 종필 서명.png
-│   │   ├── 민경-서명추가.hwp
-│   │   ├── 윤태호 훈련증빙.png
-│   │   ├── 채원님 싸인.png
-│   │   ├── 김무연 훈련증빙.png
-│   │   ├── 김채원 훈련증빙.png
-│   │   ├── 박윤수 훈련증빙.png
-│   │   ├── 서종필 훈련증빙.png
-│   │   └── 조민경 훈련증빙.png
-│   ├── 참가신청서_펫과함께.hwp
-│   └── 참가신청서_펫과함께.pdf
-├── file.txt
 ├── inference.py
 ├── mmdet
 │   ├── __init__.py
-│   ├── __pycache__
-│   │   ├── __init__.cpython-38.pyc
-│   │   ├── registry.cpython-38.pyc
-│   │   └── version.cpython-38.pyc
 │   ├── apis
 │   │   ├── __init__.py
 │   │   ├── __pycache__
@@ -938,9 +906,6 @@
 │       ├── local_visualizer.py
 │       └── palette.py
 ├── model-index.yml
-├── outputs
-│   ├── preds
-│   └── vis
 ├── pytest.ini
 ├── requirements
 │   ├── albu.txt
