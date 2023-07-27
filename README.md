@@ -509,5 +509,23 @@
 위 사진은 DenseNet의 각 layer들의 weights를 도식화 한 것으로, 직관적으로 보기에도 backpropagation 과정에서 각각의 다른 layer들을 update하면서 똑같은 gradient가 재사용되는 것을 확인할 수 있습니다.
 
 
+
+![Image2](https://user-images.githubusercontent.com/101624956/256545071-6ce2fe04-f76a-4242-ab2e-ace8a90bf6a0.png)
+CSPNet은 위 사진과 같이 feature map을 두 가지로 나누어 전자인 $x_0’$은 직접적으로 **stage의 끝 부분에 연결**, 후자인 $x_0’’$은 **dense block을 통과**시켜줍니다.
+
+Dense layer의 출력 값($x_0’’$$, x_1, x_2, …$)은 transition layer를 거쳐 $x_t$가 되고, $x_t$는 아까 나눠진 $x_0’$와 concatenation되어 다음 transition layer를 통과해 $x_u$를 생성합니다.
+
+이를 도식화 하면 아래와 같습니다.
+![Image3](https://user-images.githubusercontent.com/101624956/256545140-f12f8e00-f53f-4dd9-9720-3f6197f7aa8c.png)
+이처럼 분할된 gradient의 flow를 두 path로 나누어 dense block을 통과하지 않는 $x_0’$의 gradient는 복사되지 않고, stage의 마지막 부분에만 추가됩니다. 
+이를 통해 과도한 양의 gradient information 복사를 방지하는 장점을 가지고 있습니다.
+
+
 ## RTMDet
+
 # Reference
+[CSPNet: A New Backbone that can Enhance Learning Capability of CNN](https://arxiv.org/abs/1911.11929)
+
+[RTMDet: An Empirical Study of Designing Real-Time Object Detectors](https://arxiv.org/abs/2212.07784)
+
+[mmdetection/configs/rtmdet at main · open-mmlab/mmdetection](https://github.com/open-mmlab/mmdetection/tree/main/configs/rtmdet)
