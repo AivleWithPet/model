@@ -1,8 +1,6 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=300&section=header&text=Model&fontSize=90&animation=fadeIn&fontAlignY=38&desc=프로젝트에%20사용된%20모델에%20관하여%20다룹니다!&descAlignY=51&descAlign=62)
 
-**Table of Contents**
-
-[목차]
+# 목차
 
 1. [Stacks](#Stacks)
 
