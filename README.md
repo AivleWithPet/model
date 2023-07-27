@@ -930,18 +930,7 @@
 
 # Modeling
 ## CSPNet
-1. **Strengthening learning ability of a CNN**
-    
-    당연하게도 CNN은 경량화 이후 성능이 크게 저하된다는 단점이 존재 따라서 경량화 후에도 충분한 정확도의 유지를 목적으로 한다.
-    
-2. **Removing computational bottlenecks**
-    
-    Bottleneck이 많아지면 inference를 날리면서 더 많은 반복이 발생하므로 이를 최대한 줄여 최적화
-    
-3. **Reducing memory costs**
-    
-    feature pyramids를 생성할 때 사용하는 메모리를 절감
-## Cross Stage Partial Network
+### Cross Stage Partial Network
 
 ---
 
