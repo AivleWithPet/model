@@ -508,7 +508,11 @@
 ![Image1](https://user-images.githubusercontent.com/101624956/256544425-32146ac5-d960-4038-9893-0d164056de0a.png)
 
 $$
-w_1' = f(w_1,\ g_0)\\ w_2' = f(w_1,\ g_0, \ g_1) \\ w_3' = f(w_1,\ g_0, \ g_1, \ g_2) \\ \vdots \\ w_k' = f(w_1,\ g_0, \ g_1, \ g_2, \ \cdots, \ g_{k-1})
+w_1' = f(w_1,\ g_0)\\
+w_2' = f(w_1,\ g_0, \ g_1) \\
+w_3' = f(w_1,\ g_0, \ g_1, \ g_2) \\
+\vdots \\
+w_k' = f(w_1,\ g_0, \ g_1, \ g_2, \ \cdots, \ g_{k-1})
 $$
 
 위 사진은 DenseNet의 각 layer들의 weights를 도식화 한 것으로, 직관적으로 보기에도 backpropagation 과정에서 각각의 다른 layer들을 update하면서 똑같은 gradient가 재사용되는 것을 확인할 수 있습니다.
