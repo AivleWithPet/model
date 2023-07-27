@@ -2,7 +2,7 @@
 
 # Table of contents
 
-1. [Overview](https://github.com/AivleWithPet/model)
+1. [Overview](Overview)
 2. [Stacks](#Stacks)
 3. [Structure](#Structure)
 4. [Modeling](#Modeling)
