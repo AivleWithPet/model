@@ -508,10 +508,10 @@
 ![Image1](https://user-images.githubusercontent.com/101624956/256544425-32146ac5-d960-4038-9893-0d164056de0a.png)
 
 $$
-w_1' = f(w_1,\ g_0)\\
-w_2' = f(w_1,\ g_0, \ g_1) \\
-w_3' = f(w_1,\ g_0, \ g_1, \ g_2) \\
-\vdots \\
+w_1' = f(w_1,\ g_0)\newline
+w_2' = f(w_1,\ g_0, \ g_1) \newline
+w_3' = f(w_1,\ g_0, \ g_1, \ g_2) \newline
+\vdots \newline
 w_k' = f(w_1,\ g_0, \ g_1, \ g_2, \ \cdots, \ g_{k-1})
 $$
 
