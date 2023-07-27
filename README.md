@@ -9,6 +9,7 @@
 
 # structure
 
+```bash
 .
 ├── README.md
 ├── checkpoints
@@ -954,5 +955,5 @@
 ├── setup.cfg
 └── setup.py
 
-97 directories, 847 files
+```
 
