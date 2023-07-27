@@ -2,7 +2,7 @@
 
 **Table of Contents**
 
-[목차l
+[목차]
 
 1. [Stacks](#Stacks)
 
