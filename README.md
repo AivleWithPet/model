@@ -513,7 +513,7 @@
 
 CSPNet은 위 사진과 같이 feature map을 두 가지로 나누어 전자인 $x_0’$은 직접적으로 **stage의 끝 부분에 연결**, 후자인 $x_0’’$은 **dense block을 통과**시켜줍니다.
 
-Dense layer의 출력 값($x_0’’$$, x_1, x_2, …$)은 transition layer를 거쳐 $x_t$가 되고, $x_t$는 아까 나눠진 $x_0’$와 concatenation되어 다음 transition layer를 통과해 $x_u$를 생성합니다.
+Dense layer의 출력 값은 transition layer를 거쳐 $x_t$가 되고, $x_t$는 아까 나눠진 $x_0’$와 concatenation되어 다음 transition layer를 통과해 $x_u$를 생성합니다.
 
 이를 도식화 하면 아래와 같습니다.
 
