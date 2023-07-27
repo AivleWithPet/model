@@ -2,7 +2,7 @@
 
 **Table of Contents**
 
-[Tocl(#toc)
+[목차l
 
 1. [Stacks](#Stacks)
 
