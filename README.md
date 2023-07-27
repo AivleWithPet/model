@@ -32,9 +32,6 @@
 │   │   ├── __init__.py
 │   │   ├── api_wrappers
 │   │   │   ├── __init__.py
-│   │   │   ├── __pycache__
-│   │   │   │   ├── __init__.cpython-38.pyc
-│   │   │   │   └── coco_api.cpython-38.pyc
 │   │   │   └── coco_api.py
 │   │   ├── base_det_dataset.py
 │   │   ├── cityscapes.py
