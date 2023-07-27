@@ -2,8 +2,9 @@
 
 # Table of contents
 
-1. [Stacks](#Stacks)
-2. [Structure](#Structure)
+1. [Overview](#Overview)
+2. [Stacks](#Stacks)
+3. [Structure](#Structure)
 
 # Overview
 반려동물의 안구부위 사진을 이용해 질환을 탐지하는 모델로 MMdetection을 이용해 Object Detection Task를 수행하였습니다.
